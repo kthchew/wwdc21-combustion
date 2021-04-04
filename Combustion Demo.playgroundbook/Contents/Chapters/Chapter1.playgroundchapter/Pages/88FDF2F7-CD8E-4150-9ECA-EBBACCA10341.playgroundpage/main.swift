@@ -1,6 +1,6 @@
 /*:
  # Background
- A hydrocarbon, as the name suggests, is a compound that only contains hydrogen and carbon. They are an important part of chemistry, and are a basic compound that we use to make many, more complex compounds, such as those found in plastics.
+ A hydrocarbon, as the name suggests, is a compound that only contains hydrogen and carbon. They are an important part of chemistry, and are a basic compound that we use to make more complex compounds, such as those found in plastics.
  
  Alkanes are one type (*homologous series*) of hydrocarbon. In alkanes, carbon has 4 covalent bonds to other atoms. For example, an alkane with one carbon atom will have four single bonds to four other hydrogen atoms. Alkanes only contain single bonds to other atoms.
  
@@ -15,7 +15,6 @@
  You'll see the types of alkanes in the `alkaneMembers` array in their displayed form (with color) to the right. Try using code completion to fill in some names of alkanes, and see what they look like by pressing "Run My Code". When you're ready to continue, click "Next".
  
  - Note: Only the first eight members of the alkane series are supported. Alkanes with more than 8 carbons exist, but aren't supported by this playground.
-
  */
 //#-hidden-code
 import PlaygroundSupport
