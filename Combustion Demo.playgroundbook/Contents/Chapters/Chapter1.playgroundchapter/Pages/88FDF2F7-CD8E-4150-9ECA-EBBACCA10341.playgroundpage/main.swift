@@ -12,7 +12,7 @@
  - Note: You may want to enter full-screen mode and/or hide the editor/sidebar to see the full displayed formula,
  especially for the alkanes with longer carbon chains.
 
- You'll see the types of alkanes in the `alkaneMembers` array in their displayed form (with color) to the right. Try using code completion to fill in some names of alkanes, and see what they look like by pressing "Run My Code". When you're ready to continue, click "Next".
+ You'll see the types of alkanes in the `alkaneMembers` array in their displayed form (with color) to the right. Try using code completion to fill in some names of alkanes, and see what they look like by pressing "Run My Code". You don't need to look at all of them, but I recommend at least looking at the prefilled ones below. When you're ready to continue, click "Next".
  
  - Note: Only the first eight members of the alkane series are supported. Alkanes with more than 8 carbons exist, but aren't supported by this playground.
  */
