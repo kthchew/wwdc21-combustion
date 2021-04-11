@@ -1,7 +1,7 @@
 /*:
  Chemistry is all around us. Many inventions today, from combustion in car engines to tiny chips in computers, rely on advances in chemistry. This playground will introduce you to a small part of organic chemistry: combustion of alkanes.
  
- To continue, press Run My Code, then Start.
+ To continue, go to the next page, "Hydrocarbons - Alkanes", in the sidebar.
  */
 
 //#-hidden-code
