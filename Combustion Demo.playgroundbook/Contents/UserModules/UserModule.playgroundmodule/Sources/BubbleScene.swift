@@ -9,6 +9,8 @@ public class BubbleScene: SKScene {
     var tracker: LabTracker?
 
     public override func didMove(to view: SKView) {
+        view.ignoresSiblingOrder = true
+
         let background = SKSpriteNode(color: .black, size: CGSize(width: 1024, height: 768))
         background.position = CGPoint(x: size.width / 2, y: size.height / 2)
         background.zPosition = -1
@@ -45,7 +47,7 @@ public class BubbleScene: SKScene {
         let touchedMethaneBubbles = nodes(at: first.location(in: self)).filter { node in
             node.name == "methane"
         }
-        for node in touchedMethaneBubbles {
+        if let node = touchedMethaneBubbles.first {
             let fire = getFire(at: node.position)
             addChild(fire)
             run(SKAction.playSoundFileNamed("flame.mp3", waitForCompletion: false))
@@ -64,6 +66,7 @@ public class BubbleScene: SKScene {
         bubbleNode.physicsBody?.velocity = CGVector(dx: 0, dy: 140)
         bubbleNode.physicsBody?.linearDamping = 0
         bubbleNode.physicsBody?.affectedByGravity = false
+        bubbleNode.physicsBody?.collisionBitMask = 0x00000000
         addChild(bubbleNode)
 
         if name == "methane" && !doNotTellTrackerAboutMethaneReleaseToWorkaroundStrangeIssueWithFire {
