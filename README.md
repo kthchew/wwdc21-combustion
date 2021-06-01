@@ -1,5 +1,7 @@
 # WWDC21 Submission - Combustion Demo
 
+## Status: Accepted!
+
 This is my playground for WWDC21's [Swift Student Challenge](https://developer.apple.com/wwdc21/swift-student-challenge/). I decided to create a Swift Playground to teach users about combustion reactions, a small part of organic chemistry. It uses SwiftUI and SpriteKit to create a mini "lab."
 
 ## Installation
